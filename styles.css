@@ -1,0 +1,96 @@
+h1 {
+color:blue;
+font-family:'Courier New', Courier, monospace;
+}
+
+h2 {
+font-style: italic;
+color:rgb(220, 132, 77);
+font-family:'Times New Roman', Times, serif
+}
+
+hr {
+color: aquamarine;
+border-color: rgb(67, 111, 223);
+border-width: 5px;
+border-style: solid;
+border-radius: 5px;
+}
+
+p {
+font-family:'Trebuchet MS';  
+}
+
+.letra{
+font-family:'Trebuchet MS';    
+}
+
+a.v1 {
+text-decoration: none;
+font-weight: bold;  
+}
+
+a.v1:hover {
+color:orange;
+font-style: italic;    
+}
+
+.fa-copyright{
+color: red;   
+}
+
+h3.Produtos {
+color: rgb(67, 111, 223);
+font-size:0.55cm;
+font-family:'Tahoma', Verdana, sans-serif;
+}
+
+li.azul
+{
+color:blue;
+}
+
+li.red
+{
+color:red;
+}
+li.red:nth-child(2)
+{color: plum;
+}
+a.v2 {
+text-decoration: none;
+}
+a.v2:visited {
+color: blue;    
+}
+
+ul.menuv {
+
+    padding: 0;
+    background-color: black;
+    list-style: none;
+}
+
+ul.menuv li {
+    display: inline-block;
+    padding: 14px 16px;
+    border-right: 1px solid #bbb;
+    text-align: center;
+}
+
+ul.menuv li.active {
+    background-color: green;
+}
+
+ul.menuv li.active:hover{
+    background-color: white;
+}
+
+ul.menuv li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul.menuv li:hover{
+    background-color: grey;
+}
